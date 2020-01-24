@@ -1,5 +1,5 @@
 # mycode
-Learning to track my code
+Learning to track my code and use version control with git
 
 ## Getting Started
 
