@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webservice01
+  labels: 
+    name: webservice01
+spec:
+  containers:
+  -
+    name: webby
+    image: reg.alta3.com/302-weitnauer-webby
+    ports:
+    -
+      name: webby
+      containerPort: 8888
+      protocol: TCP

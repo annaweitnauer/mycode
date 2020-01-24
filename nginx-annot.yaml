@@ -1,0 +1,14 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-annot
+  annotations:
+    alta3.com/logo-url: "https://alta3.com/static/images/Alta3-logo_large.png"
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.7.9
+    ports: 
+    - containerPort: 80
+
