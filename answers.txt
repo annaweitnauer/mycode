@@ -1,0 +1,10 @@
+Answers to those questions:
+
+1. kubectl get pods -o wide or kubectl describe pods can help you find those.
+2. Yes. That's what the last few lab directions show you happens
+3. kubectl describe nodes | grep IP should do the trick
+4. It should resolve correctly
+5. The one that is listed as the NodePort
+6. Ditto (to 5)
+7. Ditto Ditto (to 5, 6) 
+
